@@ -35,7 +35,7 @@ An IP address is the computer identifier that hosts the server of the website we
 
 ### Discussion on step 3: The browser establishes a TCP connection with the server
 
-They might jump straight to an HTTP request here which would be correct but it's good to introduce some nuance about that process. Ask them to think about to WebSockets and HTTP. Those protocols are using something. TCP is that thing. Think of TCP as an "open tunnel" that connects to our server
+They might jump straight to an HTTP request here which would be correct but it's good to introduce some nuance about that process. Ask them to think about to WebSockets and HTTP. Those protocols are using something. TCP is that thing. Think of TCP as an "open tunnel" that connects to our server.
 
 ### Discussion on Step 4: The browser sends an HTTP request to the server
 
@@ -71,7 +71,7 @@ In this step, it just renders the barebones HTML without anything else.
 
 ### Discussion on Step 8: The browser reads the HTML line by line
 
-Thinking back to Juke, we discussed that the browser reads the HTML line by line. If they are having trouble with this, you can ask them about the `defer` tag that defers execution of scripts until the end of the HTML reading. Or ask them about what happens if there and scripts or images that are hosted somewhere else inside the HTML? Does everything comeback in that first request?
+Thinking back to Juke, we discussed that the browser reads the HTML line by line. If they are having trouble with this, you can ask them about the `defer` tag that defers execution of scripts until the end of the HTML reading. Or ask them about what happens if there are scripts or images that are hosted somewhere else inside the HTML. Does everything comeback in that first request?
 
 ### Discussion on Step 9: If the browser encounters certain tags for CSS, JS or Images in the HTML, repeat steps 4-6 but with appropriate resource
 
